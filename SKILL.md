@@ -1,8 +1,8 @@
 ---
 name: wb-health-check
-description: WorkBuddy 自身与系统健康巡检。检测 WorkBuddy 进程数与内存占用、系统 CPU / 内存 / 句柄 / 上线时间、C 盘空间、可选 GPU 状态，输出 GREEN/YELLOW/RED 三色状态、具体告警与处置建议。触发词：健康检查、检查自身状态、跑下健康检查、wb 还活着吗、内存快爆了吗、WB 是不是挂了、system health、health check。
+description: 给 WorkBuddy 智能体和您的电脑做“体检”的工具。AI 助手连续运行时间太长、一次对话内容太多时，可能会无声无息地突然消失（界面和托盘图标一起不见），使用者还以为是电脑坏了。本技能每次开工前跑一次（约 2 秒，不占资源、不留后台），检查三类关键指标：WorkBuddy 主进程已连续运行多久、当前会话累积了多少对话量、AI 响应是不是越来越慢——三项同时超标就是“随时可能猝死”的信号；另外还检查系统 CPU、内存、句柄数、开机时长、C 盘剩余空间和显卡状态。结果用绿黄红三种颜色告诉您：绿灯不用管，黄灯一句话提醒，红灯提示“保存工作、重启一下”。告警全部用大白话，不带英文术语，不懂电脑也看得懂。特别适合配置不高的老电脑（8G 内存甚至更低）。触发词：健康检查、检查自身状态、跑下健康检查、wb 还活着吗、内存快爆了吗、WB 是不是挂了、system health、health check。
 agent_created: true
-version: 1.0.1
+version: 1.0.2
 author: 天工创新坊
 license: CC BY 4.0
 display_name: "健康检查"
