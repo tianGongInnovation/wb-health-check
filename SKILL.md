@@ -2,12 +2,12 @@
 name: wb-health-check
 description: 给 WorkBuddy 智能体和您的电脑做“体检”的工具。电脑越用越慢时，过去只能打开任务管理器看占用、猜着清理可疑任务，很费劲，多数人只能等死机失去响应后重启、甚至硬关机；本技能让智能体在每次开工前花约 2 秒跑一次体检（不占资源、不留后台），把隐患挡在死机之前：检查 WorkBuddy 主进程已连续运行多久、当前会话累积了多少对话量、AI 响应是不是越来越慢——三项同时超标就是“随时可能无声消失”的信号；同时检查系统 CPU、内存、句柄数、开机时长、C 盘剩余空间和显卡状态，发现某个软件拖累系统时提示有针对性的关闭它，而不是笼统地重启了事——曾有使用者在体检中发现一个视频播放软件长期运行产生了大量内存垃圾，关掉重开即恢复正常，以后对这类软件问题心里就有数了。结果用绿黄红三种颜色告诉您：绿灯不用管，黄灯一句话提醒，红灯提示“保存工作、重启一下”。告警全部用大白话，不带英文术语，不懂电脑也看得懂。特别适合配置不高的老电脑（8G 内存甚至更低）。触发词：健康检查、检查自身状态、跑下健康检查、wb 还活着吗、内存快爆了吗、WB 是不是挂了、system health、health check。
 agent_created: true
-version: 1.0.5
+version: 1.0.6
 author: 天工创新坊
 license: CC BY 4.0
 display_name: "电脑运行状态健康检查"
 display_name_en: PC Health Status Check
-trigger: ["健康检查", "检查自身状态", "跑下健康检查", "系统还活着吗", "wb 还活着吗"]
+trigger: ["健康检查", "检查自身状态", "跑下健康检查", "系统还活着吗", "wb 还活着吗", "health check", "check system status", "run a health check", "is the system still alive"]
 description_zh: "电脑越用越慢，过去只能开任务管理器猜，甚至硬关机；现在开工前花 2 秒跑一次体检：智能体运行太久、对话太多会无声消失，电脑内存、C 盘空间也一并检查，哪个软件在拖累、该不该重启，绿黄红三色告诉您。"
 description_en: "A slow computer used to mean guessing in Task Manager or even a hard power-off; now a 2-second health check before work watches how long the agent has run, how large the session has grown, and how fast it responds, plus system memory and drive space — green, yellow or red tells you whether to carry on or save work and restart"
 category: productivity
